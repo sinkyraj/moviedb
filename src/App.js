@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Movie from './components/Movie'
 
-//Api stuff
+//Api from tmdb
 const FEATURED_API = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=c4ea20c3d34396aa2aee00e88c84071c&page=1";
 
 // const IMG_API = "https://image.tmdb.org/t/p/w1280";
